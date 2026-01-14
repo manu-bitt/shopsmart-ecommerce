@@ -1,2 +1,2 @@
 # ShopSmart
-Init.
+E-commerce platform.
