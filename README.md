@@ -1,0 +1,2 @@
+# ShopSmart
+Init.
