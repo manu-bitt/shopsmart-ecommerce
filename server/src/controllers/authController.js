@@ -1,1 +1,1 @@
-export const registerUser = (req,res) => res.send('ok');
+export const registerUser = (req,res) => { console.log(req.body); res.send('ok'); };
