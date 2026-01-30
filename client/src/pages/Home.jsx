@@ -1,1 +1,1 @@
-export default () => <h1>Products</h1>
+import { useState, useEffect } from 'react';\nimport axios from 'axios';\nexport default () => {\n  const [p, setP] = useState([]);\n  useEffect(() => { axios.get('/api/products').then(res => setP(res.data)); }, []);\n  return <div>{p.length} products</div>;\n}
